@@ -10,21 +10,21 @@
   <body>
     <a-scene>
       <a-assets>
-        <img id="p1" src="assets/01/panel1.png">
-        <img id="p2" src="assets/01/panel2.png">
-        <img id="p3" src="assets/01/panel3.png">
-        <img id="p4" src="assets/01/panel4.png">
-        <img id="p5" src="assets/01/panel5.png">
-        <img id="p6" src="assets/01/panel6.png">
+        <img id="image1" src="assets/01/panel1.png">
+        <img id="image2" src="assets/01/panel2.png">
+        <img id="image3" src="assets/01/panel3.png">
+        <img id="image4" src="assets/01/panel4.png">
+        <img id="image5" src="assets/01/panel5.png">
+        <img id="image6" src="assets/01/panel6.png">
         <a-asset-item id="mod_chicken" src="assets/chick-lowpoly.dae"></a-asset-item>
       </a-assets>
-      <a-sun-sky></a-sun-sky>
-      <a-curvedimage src="#p1" height="6.3" radius="8.7" theta-length="60" theta-start="150"></a-curvedimage>
-      <a-curvedimage src="#p2" height="6.3" radius="8.7" theta-length="60" theta-start="210"></a-curvedimage>
-      <a-curvedimage src="#p3" height="6.3" radius="8.7" theta-length="60" theta-start="270"></a-curvedimage>
-      <a-curvedimage src="#p4" height="6.3" radius="8.7" theta-length="60" theta-start="330"></a-curvedimage>
-      <a-curvedimage src="#p5" height="6.3" radius="8.7" theta-length="60" theta-start="30"></a-curvedimage>
-      <a-curvedimage src="#p6" height="6.3" radius="8.7" theta-length="60" theta-start="90"></a-curvedimage>
+      id="panel1" <a-sun-sky></a-sun-sky>
+      <a-curvedimage id="panel1" src="#image1" height="6.3" radius="8.7" theta-length="60" theta-start="150"></a-curvedimage>
+      <a-curvedimage id="panel2" src="#image2" height="6.3" radius="8.7" theta-length="60" theta-start="210"></a-curvedimage>
+      <a-curvedimage id="panel3" src="#image3" height="6.3" radius="8.7" theta-length="60" theta-start="270"></a-curvedimage>
+      <a-curvedimage id="panel4" src="#image4" height="6.3" radius="8.7" theta-length="60" theta-start="330"></a-curvedimage>
+      <a-curvedimage id="panel5" src="#image5" height="6.3" radius="8.7" theta-length="60" theta-start="30"></a-curvedimage>
+      <a-curvedimage id="panel6" src="#image6" height="6.3" radius="8.7" theta-length="60" theta-start="90"></a-curvedimage>
       <a-entity position="0 -2 0" id="player">
         <a-camera></a-camera>
       </a-entity>
