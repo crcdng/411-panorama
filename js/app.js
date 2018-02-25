@@ -3,6 +3,7 @@ var controller, i;
 var datGuiFolderElement = { folder: ' 00' }; // dat.GUI needs an object
 var folders = [];
 var gui = new dat.GUI();
+var numFolders = 50;
 var scene = document.querySelector('a-scene');
 
 function run() {
@@ -18,7 +19,7 @@ function run() {
   });
 }
 
-for (i = 1; i < 50; i++) {
+for (i = 1; i < numFolders; i++) {
   folders.push(i < 10 ? ' 0' + i : ' ' + i); // the leading space is a workaround for a dat.GUI bug sorting strings
 }
 
