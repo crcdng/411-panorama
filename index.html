@@ -18,21 +18,21 @@
         <img id="image6" src="assets/01/panel6.png">
         <a-asset-item id="mod_chicken" src="assets/chick-lowpoly.dae"></a-asset-item>
       </a-assets>
-      id="panel1" <a-sun-sky></a-sun-sky>
+      <a-sun-sky></a-sun-sky>
       <a-curvedimage id="panel1" src="#image1" height="6.3" radius="8.7" theta-length="60" theta-start="150"></a-curvedimage>
-      <a-curvedimage id="panel2" src="#image2" height="6.3" radius="8.7" theta-length="60" theta-start="210"></a-curvedimage>
-      <a-curvedimage id="panel3" src="#image3" height="6.3" radius="8.7" theta-length="60" theta-start="270"></a-curvedimage>
+      <a-curvedimage id="panel2" src="#image2" height="6.3" radius="8.7" theta-length="60" theta-start="90"></a-curvedimage>
+      <a-curvedimage id="panel3" src="#image3" height="6.3" radius="8.7" theta-length="60" theta-start="30"></a-curvedimage>
       <a-curvedimage id="panel4" src="#image4" height="6.3" radius="8.7" theta-length="60" theta-start="330"></a-curvedimage>
-      <a-curvedimage id="panel5" src="#image5" height="6.3" radius="8.7" theta-length="60" theta-start="30"></a-curvedimage>
-      <a-curvedimage id="panel6" src="#image6" height="6.3" radius="8.7" theta-length="60" theta-start="90"></a-curvedimage>
+      <a-curvedimage id="panel5" src="#image5" height="6.3" radius="8.7" theta-length="60" theta-start="270"></a-curvedimage>
+      <a-curvedimage id="panel6" src="#image6" height="6.3" radius="8.7" theta-length="60" theta-start="210"></a-curvedimage>
       <a-entity position="0 -2 0" id="player">
         <a-camera></a-camera>
       </a-entity>
       <!-- 'hide' a chicken in the scene
       3d model by platyperson, sketchfab.com [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
       -->
-      <a-entity id="chicken" scale="0.2 0.2 0.2" position="-10 12 -20" rotation="0 30 0" collada-model="#mod_chicken"></a-entity>
-      <a-entity position="-9 11 -18.5">
+      <a-entity id="chicken" scale="0.2 0.2 0.2" position="-10 -3 -20" rotation="0 30 0" collada-model="#mod_chicken"></a-entity>
+      <a-entity position="-9 -2 -18.5">
         <a-cylinder position="0 -0.3 0" radius="0.1" height="3" color="black"></a-cylinder>
         <a-plane position="0 2 0" width="3" height="2" color="white" text="value: submit\nyour\nfiles; color: black; align: center"></a-plane>
       </a-entity>
